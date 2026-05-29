@@ -1,0 +1,23 @@
+# =========================================================
+# SYSTEM WHITELIST: CORE XBOX LIVE CONSOLE SERVICES
+# =========================================================
+v10.events.data.microsoft.com
+title.mgt.xboxlive.com
+clientconfig.passport.net
+xboxlive.com
+user.auth.xboxlive.com
+xsts.auth.xboxlive.com
+attestation.xboxlive.com
+
+# =========================================================
+# SYSTEM WHITELIST: MULTIPLAYER, PARTY CHAT & CLOUD SAVES
+# =========================================================
+v10.vortex-win.data.microsoft.com
+settings-win.data.microsoft.com
+licensing.xboxlive.com
+notify.xboxlive.com
+gsi.xboxlive.com
+eds.xboxlive.com
+party.xboxlive.com
+multiplayer.xboxlive.com
+assets.xboxlive.com
