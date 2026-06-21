@@ -101,6 +101,9 @@ time.google.com
 hcaptcha.com
 epic-games-api.arkoselabs.com
 cdn.arkoselabs.com
+*.fortnite.com
+*.ol.epicgames.com
+*.ogs.live.on.epicgames.com
 
 # Google Services
 *.google.com
