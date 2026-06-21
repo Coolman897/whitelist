@@ -1,23 +1,64 @@
-# =========================================================
-# SYSTEM WHITELIST: CORE XBOX LIVE CONSOLE SERVICES
-# =========================================================
-v10.events.data.microsoft.com
-title.mgt.xboxlive.com
-clientconfig.passport.net
-xboxlive.com
-user.auth.xboxlive.com
-xsts.auth.xboxlive.com
-attestation.xboxlive.com
+# ==========================================================
+# SYSTEM WHITELIST: CORE MICROSOFT & XBOX ECOSYSTEM
+# ==========================================================
 
-# =========================================================
-# SYSTEM WHITELIST: MULTIPLAYER, PARTY CHAT & CLOUD SAVES
-# =========================================================
-v10.vortex-win.data.microsoft.com
-settings-win.data.microsoft.com
-licensing.xboxlive.com
-notify.xboxlive.com
-gsi.xboxlive.com
-eds.xboxlive.com
-party.xboxlive.com
-multiplayer.xboxlive.com
-assets.xboxlive.com
+# Core Xbox Infrastructure (Wildcards recommended)
+*.xboxlive.com
+*.xbox.com
+
+# Microsoft Store and Licensing Services
+*.microsoft.com
+*.mp.microsoft.com
+*.sls.microsoft.com
+displaycatalog.mp.microsoft.com
+licensing.mp.microsoft.com
+purchase.mp.microsoft.com
+activation.sls.microsoft.com
+
+# Certificate Validation (Crucial for SSL/TLS handshakes)
+crl.microsoft.com
+mscrl.microsoft.com
+ocsp.msocsp.com
+
+# Telemetry and Update Services
+*.events.data.microsoft.com
+*.aria.microsoft.com
+*.dl.delivery.mp.microsoft.com
+ctldl.windowsupdate.com
+
+# Authentication and Account Services
+login.live.com
+account.live.com
+clientconfig.passport.net
+*.msauth.net
+*.msauthimages.net
+
+# CDN and Content Delivery
+*.akamai.net
+*.akamaized.net
+*.msecnd.net
+
+# ==========================================================
+# SYSTEM WHITELIST: GENERAL NETWORK SERVICES & TIME
+# ==========================================================
+
+# Network Time Synchronization (Prevents certificate/login errors)
+time.windows.com
+pool.ntp.org
+time.google.com
+
+# Common Media/Communication CDNs (Used by most streaming apps)
+*.cloudfront.net
+*.fastly.net
+*.edgekey.net
+*.edgesuite.net
+
+# Domain Name System (Ensures robust resolution)
+8.8.8.8
+8.8.4.4
+1.1.1.1
+
+# Web Authentication & API Frameworks
+*.gvt1.com
+*.ggpht.com
+*.google-analytics.com
