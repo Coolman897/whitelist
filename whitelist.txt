@@ -101,3 +101,20 @@ time.google.com
 hcaptcha.com
 epic-games-api.arkoselabs.com
 cdn.arkoselabs.com
+
+# Google Services
+*.google.com
+
+*.accounts.google.com
+
+*.gstatic.com
+
+*.googleapis.com
+
+*.googleusercontent.com
+
+*.googlevideo.com
+
+*.youtube.com
+
+*.google-analytics.com
