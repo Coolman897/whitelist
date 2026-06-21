@@ -62,3 +62,32 @@ time.google.com
 *.gvt1.com
 *.ggpht.com
 *.google-analytics.com
+
+# ==========================================================
+# SYSTEM WHITELIST: GENERAL WEB, OS, AND APP INFRASTRUCTURE
+# ==========================================================
+
+# Operating System Updates & Telemetry
+*.windowsupdate.com
+*.download.windowsupdate.com
+*.s.microsoft.com
+
+# Common Cloud & Scripting Libraries (Often used for websites/apps)
+*.cdnjs.cloudflare.com
+*.ajax.googleapis.com
+*.code.jquery.com
+*.fonts.googleapis.com
+*.fonts.gstatic.com
+
+# Common OAuth & Social Sign-In Services
+*.auth0.com
+*.oktacdn.com
+*.accounts.google.com
+*.facebook.com
+*.graph.facebook.com
+
+# Common Tracking & Diagnostic Domains (Often required for app stability)
+*.sentry.io
+*.crashlytics.com
+*.firebaseio.com
+*.segment.com
