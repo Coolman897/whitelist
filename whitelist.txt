@@ -91,3 +91,13 @@ time.google.com
 *.crashlytics.com
 *.firebaseio.com
 *.segment.com
+
+# Epic Services
+*.epicgames.com
+*.epicgames.dev
+*.unrealengine.com
+*.akamaized.net
+*.arkoselabs.com
+hcaptcha.com
+epic-games-api.arkoselabs.com
+cdn.arkoselabs.com
